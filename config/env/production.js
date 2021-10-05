@@ -150,7 +150,7 @@ module.exports = {
     cors: {
       allowOrigins: [
       //'https://example.com',
-			'https://node-markforged-demo.herokuapp.com'
+			"https://node-markforged-demo.herokuapp.com"
       ]
     },
 
@@ -251,10 +251,11 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
+     onlyAllowOrigins: [
+			"https://node-markforged-demo.herokuapp.com"
     //   'https://example.com',
     //   'https://staging.example.com',
-    // ],
+		],
 
 
     /***************************************************************************
