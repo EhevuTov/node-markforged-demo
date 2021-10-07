@@ -21,7 +21,7 @@ module.exports = {
 
     // All done.
 
-		exits.success({message: "Hello, Teddy and MarkForge API!"});
+		exits.success({message: "Hello, Teddy and MarkForged!"});
     return;
 
   }
